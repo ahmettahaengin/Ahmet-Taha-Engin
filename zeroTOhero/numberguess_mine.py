@@ -16,11 +16,12 @@ while True:
     denenen_sayı = int(input("Bir sayı tahmin et: "))
 
     yapılan_tahmin += 1
-    print(f"Yaptığın tahmin sayısı : {yapılan_tahmin}")
-    if yapılan_tahmin == tahmin_sayısı:
-        print("Tahimn hakkın bitti tekrar dene.")
-        break
 
+    print(f"Yaptığın tahmin sayısı : {yapılan_tahmin}")
+
+    if yapılan_tahmin == tahmin_sayısı:
+        print(f"Tahimn hakkın bitti tekrar dene.Bulmaya çalıştığın sayı: {sayı}")
+        break
 
     if denenen_sayı < sayı:
         print("Daha büyük bir sayı dene.")
@@ -34,4 +35,3 @@ while True:
     elif denenen_sayı == sayı:
         print(f"Doğru tahmin ettin sayı : {sayı}")
         break
-        

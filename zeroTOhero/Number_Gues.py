@@ -1,7 +1,5 @@
 import random
 
-from pandas import pivot
-
 print("Hi! Welcome to number guessing game. You have 7 chances to guess number. Let's Start!1")
 
 low = int(input("Enter the lower bound: "))
